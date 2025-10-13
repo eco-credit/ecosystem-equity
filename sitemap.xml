@@ -1,54 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
+  <!--  Homepage  -->
   <url>
-    <loc>https://ecosystemequity.org/</loc>
+    <loc>https://ecosystemequity.co.uk/</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>1.0</priority>
   </url>
-
-  <!-- Core Pages -->
+  <!--  Core Pages  -->
   <url>
-    <loc>https://ecosystemequity.org/home.html</loc>
+    <loc>https://ecosystemequity.co.uk/home.html</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://ecosystemequity.org/insight.html</loc>
+    <loc>https://ecosystemequity.co.uk/insight.html</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://ecosystemequity.org/problem.html</loc>
+    <loc>https://ecosystemequity.co.uk/problem.html</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://ecosystemequity.org/solutions.html</loc>
+    <loc>https://ecosystemequity.co.uk/solutions.html</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://ecosystemequity.org/tools.html</loc>
+    <loc>https://ecosystemequity.co.uk/tools.html</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://ecosystemequity.org/thanks.html</loc>
+    <loc>https://ecosystemequity.co.uk/thanks.html</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://ecosystemequity.org/contact.html</loc>
+    <loc>https://ecosystemequity.co.uk/contact.html</loc>
     <lastmod>2025-10-03</lastmod>
     <priority>0.6</priority>
   </url>
-
 </urlset>
