@@ -254,6 +254,26 @@ html { scroll-padding-top: var(--topbar-height); }
   flex-shrink: 0;
 }
 
+/* Line heading icons up with the text below.
+   Lucide swaps each <i> for an <svg class="lucide lucide-NAME">, so these
+   target the rendered svg. Icons have built-in padding on the left; the
+   narrower ones (award, building, sprout) have more, so they shift further. */
+.main h2 svg.lucide,
+.main h3 svg.lucide {
+  margin-left: -1px;
+  flex-shrink: 0;
+}
+.main h2 svg.lucide-award,
+.main h3 svg.lucide-award {
+  margin-left: -4px;
+}
+.main h2 svg.lucide-building,
+.main h3 svg.lucide-building,
+.main h2 svg.lucide-sprout,
+.main h3 svg.lucide-sprout {
+  margin-left: -3px;
+}
+
 /* First section heading aligns with sidebar */
 .main section:first-of-type h2 {
   margin-top: var(--first-heading-offset);
