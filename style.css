@@ -217,15 +217,41 @@ html { scroll-padding-top: var(--topbar-height); }
 
 /* Headings */
 .main h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   margin: var(--heading-spacing-large) 0 1rem 0;
   font-size: 1.6rem;
   font-weight: 600;
 }
 
+.main h2 i[data-lucide] {
+  width: 1.3em;           /* proportional to text size */
+  height: 1.3em;
+  stroke-width: 2;
+  margin-left: -2px;      /* optical alignment */
+  position: relative;
+  top: 1px;               /* aligns icon midline to text */
+  flex-shrink: 0;
+}
+
 .main h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   margin: var(--heading-spacing-medium) 0 0.8rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+.main h3 i[data-lucide] {
+  width: 1.1em;
+  height: 1.1em;
+  stroke-width: 1.8;
+  margin-left: -2px;
+  position: relative;
+  top: 1px;
+  flex-shrink: 0;
 }
 
 /* First section heading aligns with sidebar */
