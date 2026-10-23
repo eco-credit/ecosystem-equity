@@ -520,3 +520,20 @@ body.collapsed .main {
     display: flex !important;
   }
 }
+
+/* Mobile: hide Lucide icons in main headings (same as greenfi-site).
+   Long headings wrap on small screens, which pushes the icon out of
+   line with the text, so headings go text-only below 768px. */
+@media (max-width: 768px) {
+  .main h2 i[data-lucide],
+  .main h2 svg.lucide,
+  .main h3 i[data-lucide],
+  .main h3 svg.lucide {
+    display: none !important;
+  }
+
+  .main h2,
+  .main h3 {
+    gap: 0 !important;
+  }
+}
